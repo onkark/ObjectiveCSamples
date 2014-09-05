@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8202968F19A967C10042A8A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8202968E19A967C10042A8A1 /* main.m */; };
+		8202969219A967C10042A8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8202969119A967C10042A8A1 /* AppDelegate.m */; };
+		8202969519A967C10042A8A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8202969419A967C10042A8A1 /* ViewController.m */; };
+		8202969819A967C10042A8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8202969619A967C10042A8A1 /* Main.storyboard */; };
+		8202969A19A967C10042A8A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8202969919A967C10042A8A1 /* Images.xcassets */; };
+		820296A619A967C10042A8A1 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820296A519A967C10042A8A1 /* HelloWorldTests.m */; };
+		8202970619A9999E0042A8A1 /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970219A9999E0042A8A1 /* starbucks_coffee.jpg */; };
+		8202970719A9999E0042A8A1 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970319A9999E0042A8A1 /* thai_shrimp_cake.jpg */; };
+		8202970819A9999E0042A8A1 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970419A9999E0042A8A1 /* vegetable_curry.jpg */; };
+		8202970919A9999E0042A8A1 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970519A9999E0042A8A1 /* white_chocolate_donut.jpg */; };
+		8202971019A999C60042A8A1 /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970A19A999C60042A8A1 /* angry_birds_cake.jpg */; };
+		8202971119A999C60042A8A1 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970B19A999C60042A8A1 /* creme_brelee.jpg */; };
+		8202971219A999C60042A8A1 /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970C19A999C60042A8A1 /* egg_benedict.jpg */; };
+		8202971319A999C60042A8A1 /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970D19A999C60042A8A1 /* full_breakfast.jpg */; };
+		8202971419A999C60042A8A1 /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970E19A999C60042A8A1 /* green_tea.jpg */; };
+		8202971519A999C60042A8A1 /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202970F19A999C60042A8A1 /* ham_and_cheese_panini.jpg */; };
+		8202971719A99A1B0042A8A1 /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202971619A99A1B0042A8A1 /* hamburger.jpg */; };
+		8202971C19A99A5D0042A8A1 /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202971819A99A5D0042A8A1 /* instant_noodle_with_egg.jpg */; };
+		8202971D19A99A5D0042A8A1 /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202971919A99A5D0042A8A1 /* japanese_noodle_with_pork.jpg */; };
+		8202971E19A99A5D0042A8A1 /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202971A19A99A5D0042A8A1 /* mushroom_risotto.jpg */; };
+		8202971F19A99A5D0042A8A1 /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8202971B19A99A5D0042A8A1 /* noodle_with_bbq_pork.jpg */; };
+		8202972119AA674C0042A8A1 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8202972019AA674C0042A8A1 /* SimpleTableCell.xib */; };
+		8202972419AA6B320042A8A1 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8202972319AA6B320042A8A1 /* SimpleTableCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820296A019A967C10042A8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8202968119A967C10042A8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8202968819A967C10042A8A1;
+			remoteInfo = HelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8202968919A967C10042A8A1 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8202968D19A967C10042A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8202968E19A967C10042A8A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8202969019A967C10042A8A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8202969119A967C10042A8A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8202969319A967C10042A8A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8202969419A967C10042A8A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8202969719A967C10042A8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8202969919A967C10042A8A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8202969F19A967C10042A8A1 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820296A419A967C10042A8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820296A519A967C10042A8A1 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		8202970219A9999E0042A8A1 /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		8202970319A9999E0042A8A1 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		8202970419A9999E0042A8A1 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		8202970519A9999E0042A8A1 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		8202970A19A999C60042A8A1 /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		8202970B19A999C60042A8A1 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		8202970C19A999C60042A8A1 /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		8202970D19A999C60042A8A1 /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		8202970E19A999C60042A8A1 /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		8202970F19A999C60042A8A1 /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		8202971619A99A1B0042A8A1 /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		8202971819A99A5D0042A8A1 /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		8202971919A99A5D0042A8A1 /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		8202971A19A99A5D0042A8A1 /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		8202971B19A99A5D0042A8A1 /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		8202972019AA674C0042A8A1 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		8202972219AA6B320042A8A1 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		8202972319AA6B320042A8A1 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8202968619A967C10042A8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8202969C19A967C10042A8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8202968019A967C10042A8A1 = {
+			isa = PBXGroup;
+			children = (
+				8202968B19A967C10042A8A1 /* HelloWorld */,
+				820296A219A967C10042A8A1 /* HelloWorldTests */,
+				8202968A19A967C10042A8A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8202968A19A967C10042A8A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8202968919A967C10042A8A1 /* HelloWorld.app */,
+				8202969F19A967C10042A8A1 /* HelloWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8202968B19A967C10042A8A1 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				8202971619A99A1B0042A8A1 /* hamburger.jpg */,
+				8202970A19A999C60042A8A1 /* angry_birds_cake.jpg */,
+				8202970B19A999C60042A8A1 /* creme_brelee.jpg */,
+				8202970C19A999C60042A8A1 /* egg_benedict.jpg */,
+				8202970D19A999C60042A8A1 /* full_breakfast.jpg */,
+				8202970E19A999C60042A8A1 /* green_tea.jpg */,
+				8202971819A99A5D0042A8A1 /* instant_noodle_with_egg.jpg */,
+				8202971919A99A5D0042A8A1 /* japanese_noodle_with_pork.jpg */,
+				8202971A19A99A5D0042A8A1 /* mushroom_risotto.jpg */,
+				8202971B19A99A5D0042A8A1 /* noodle_with_bbq_pork.jpg */,
+				8202970F19A999C60042A8A1 /* ham_and_cheese_panini.jpg */,
+				8202970219A9999E0042A8A1 /* starbucks_coffee.jpg */,
+				8202970319A9999E0042A8A1 /* thai_shrimp_cake.jpg */,
+				8202970419A9999E0042A8A1 /* vegetable_curry.jpg */,
+				8202970519A9999E0042A8A1 /* white_chocolate_donut.jpg */,
+				8202969019A967C10042A8A1 /* AppDelegate.h */,
+				8202969119A967C10042A8A1 /* AppDelegate.m */,
+				8202969319A967C10042A8A1 /* ViewController.h */,
+				8202969419A967C10042A8A1 /* ViewController.m */,
+				8202969619A967C10042A8A1 /* Main.storyboard */,
+				8202969919A967C10042A8A1 /* Images.xcassets */,
+				8202968C19A967C10042A8A1 /* Supporting Files */,
+				8202972019AA674C0042A8A1 /* SimpleTableCell.xib */,
+				8202972219AA6B320042A8A1 /* SimpleTableCell.h */,
+				8202972319AA6B320042A8A1 /* SimpleTableCell.m */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		8202968C19A967C10042A8A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8202968D19A967C10042A8A1 /* Info.plist */,
+				8202968E19A967C10042A8A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		820296A219A967C10042A8A1 /* HelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				820296A519A967C10042A8A1 /* HelloWorldTests.m */,
+				820296A319A967C10042A8A1 /* Supporting Files */,
+			);
+			path = HelloWorldTests;
+			sourceTree = "<group>";
+		};
+		820296A319A967C10042A8A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				820296A419A967C10042A8A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8202968819A967C10042A8A1 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820296A919A967C10042A8A1 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				8202968519A967C10042A8A1 /* Sources */,
+				8202968619A967C10042A8A1 /* Frameworks */,
+				8202968719A967C10042A8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 8202968919A967C10042A8A1 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8202969E19A967C10042A8A1 /* HelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820296AC19A967C10042A8A1 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
+			buildPhases = (
+				8202969B19A967C10042A8A1 /* Sources */,
+				8202969C19A967C10042A8A1 /* Frameworks */,
+				8202969D19A967C10042A8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820296A119A967C10042A8A1 /* PBXTargetDependency */,
+			);
+			name = HelloWorldTests;
+			productName = HelloWorldTests;
+			productReference = 8202969F19A967C10042A8A1 /* HelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8202968119A967C10042A8A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Onkar Kulkarni";
+				TargetAttributes = {
+					8202968819A967C10042A8A1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8202969E19A967C10042A8A1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8202968819A967C10042A8A1;
+					};
+				};
+			};
+			buildConfigurationList = 8202968419A967C10042A8A1 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8202968019A967C10042A8A1;
+			productRefGroup = 8202968A19A967C10042A8A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8202968819A967C10042A8A1 /* HelloWorld */,
+				8202969E19A967C10042A8A1 /* HelloWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8202968719A967C10042A8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8202971E19A99A5D0042A8A1 /* mushroom_risotto.jpg in Resources */,
+				8202971D19A99A5D0042A8A1 /* japanese_noodle_with_pork.jpg in Resources */,
+				8202971419A999C60042A8A1 /* green_tea.jpg in Resources */,
+				8202971319A999C60042A8A1 /* full_breakfast.jpg in Resources */,
+				8202970619A9999E0042A8A1 /* starbucks_coffee.jpg in Resources */,
+				8202971119A999C60042A8A1 /* creme_brelee.jpg in Resources */,
+				8202971C19A99A5D0042A8A1 /* instant_noodle_with_egg.jpg in Resources */,
+				8202971719A99A1B0042A8A1 /* hamburger.jpg in Resources */,
+				8202969819A967C10042A8A1 /* Main.storyboard in Resources */,
+				8202970719A9999E0042A8A1 /* thai_shrimp_cake.jpg in Resources */,
+				8202972119AA674C0042A8A1 /* SimpleTableCell.xib in Resources */,
+				8202971F19A99A5D0042A8A1 /* noodle_with_bbq_pork.jpg in Resources */,
+				8202971519A999C60042A8A1 /* ham_and_cheese_panini.jpg in Resources */,
+				8202969A19A967C10042A8A1 /* Images.xcassets in Resources */,
+				8202970819A9999E0042A8A1 /* vegetable_curry.jpg in Resources */,
+				8202970919A9999E0042A8A1 /* white_chocolate_donut.jpg in Resources */,
+				8202971019A999C60042A8A1 /* angry_birds_cake.jpg in Resources */,
+				8202971219A999C60042A8A1 /* egg_benedict.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8202969D19A967C10042A8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8202968519A967C10042A8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8202969519A967C10042A8A1 /* ViewController.m in Sources */,
+				8202969219A967C10042A8A1 /* AppDelegate.m in Sources */,
+				8202972419AA6B320042A8A1 /* SimpleTableCell.m in Sources */,
+				8202968F19A967C10042A8A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8202969B19A967C10042A8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820296A619A967C10042A8A1 /* HelloWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820296A119A967C10042A8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8202968819A967C10042A8A1 /* HelloWorld */;
+			targetProxy = 820296A019A967C10042A8A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8202969619A967C10042A8A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8202969719A967C10042A8A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		820296A719A967C10042A8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		820296A819A967C10042A8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820296AA19A967C10042A8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		820296AB19A967C10042A8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		820296AD19A967C10042A8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+			};
+			name = Debug;
+		};
+		820296AE19A967C10042A8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8202968419A967C10042A8A1 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820296A719A967C10042A8A1 /* Debug */,
+				820296A819A967C10042A8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820296A919A967C10042A8A1 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820296AA19A967C10042A8A1 /* Debug */,
+				820296AB19A967C10042A8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		820296AC19A967C10042A8A1 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820296AD19A967C10042A8A1 /* Debug */,
+				820296AE19A967C10042A8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8202968119A967C10042A8A1 /* Project object */;
+}
